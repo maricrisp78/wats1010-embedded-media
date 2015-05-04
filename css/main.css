@@ -5,6 +5,110 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
- }
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: lightgoldenrodyellow;
+	background-image: url(img/bubbles.png);
+}
+
+h2, h3, h4, h5 {
+	color: coral;
+}
+
+h1 {
+	color: navy;
+	text-align: center;
+	font-size: 50px;
+	font-family: serif;
+	margin-top: 50px;
+}
+
+#social {
+	margin: 10px;
+	padding: 10px;
+}
+
+
+header {
+	min-height: 300px; 
+	background-image: url(/img/monkaa_monkeyhang.jpg);
+	background-repeat: none;
+	margin-top: 5px;
+	padding: 5px;
+	
+}
+
+.subtitle {
+	text-align: center;
+	color: khaki;
+	font-weight: semi-condensed;
+	font-size: 25px;
+	padding: 2px;
+	position: absolute;
+	top: 105px;
+	right: 575px;
+}
+
+.main-nav {
+	list-style-type: none;
+	width: 50px;
+	position: absolute;
+	right: 380px;
+	top: 30px;
+	
+}
+
+
+aside li {
+	list-style-type: none;
+	padding: 7px
+
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+#watch h3{
+	background-color: cyan;
+	width: 50px; 
+	padding: 3px;
+	font-size: medium;
+	color: darkgreen;
+}
+
+#listen h3{
+	background-color: cyan;
+	width: 50px; 
+	padding: 3px;
+	font-size: medium;
+	color: darkgreen;
+
+}
+
+#about h3{
+	background-color: cyan;
+	width: 50px; 
+	padding: 0px;
+	font-size: medium;
+	color: darkgreen;
+}
+
+.weybec-people h5{
+	display: inline;
+	padding: 3px;
+	margin: 3px;
+	color: green;
+}
+
+footer {
+	display: inline;
+}
+
