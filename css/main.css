@@ -12,7 +12,7 @@ html {
 
 body {
 	background-color: lightgoldenrodyellow;
-	background-image: url(img/bubbles.png);
+
 }
 
 h2, h3, h4, h5 {
@@ -35,8 +35,7 @@ h1 {
 
 header {
 	min-height: 300px; 
-	background-image: url(/img/monkaa_monkeyhang.jpg);
-	background-repeat: none;
+	background-image: url('/img/monkaa_monkeyhang.jpg');
 	margin-top: 5px;
 	padding: 5px;
 	
